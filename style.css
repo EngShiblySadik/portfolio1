@@ -537,3 +537,16 @@ section{
       top: 100%;
     }
 }
+
+
+
+@media  screen and (max-width: 400px) {
+    .services-content{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .portfolio-content{
+        grid-template-columns: repeat(1,1fr);
+        gap: 2.5rem;
+        margin-top: 5rem;
+    }
+}
