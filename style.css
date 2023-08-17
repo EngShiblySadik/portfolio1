@@ -184,6 +184,8 @@ section{
     height: auto;
     width: 100%;
     border-radius: 8px;
+    background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    padding: 10px;
 }
 .about-text h2{
     font-size: var(--h2-font);
